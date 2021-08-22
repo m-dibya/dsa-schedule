@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Schedule Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="header">
+            <h1 class="title">DSA Schedule</h1>
+        </div>
+    </header>
+
+
+    <section class="section-1">
+        
+        <div class=" home">
+        <div class="heading">
+            <h3>
+                If you dont sacrifice for what you want
+                what you want becomes the sacrifice.
+            </h3>
+            <span>Mark your progress here</span>
+        </div>
+        <div class="home-image">
+            <img src="./images/home.svg" alt="" />
+        </div>
+        </div>
+    </section>
+
+    <section class="sec-1">
+
+        <div class="topic">
+            <h3>current topic :</h3>
+            <h4>lecture 1 : flowchart</h4>
+        </div>
+
+        <div class="status">
+            <h3>your performance status : (<span>0</span>%)</h3>
+            <progress id="file" value="0" max="100"> 32% </progress>
+        </div>
+
+    </section>
+
+
+
+    <section class="sec-2">
+
+        <h5>Topics</h5>
+
+        <div class="flowchart">
+            <div class="f-box">
+                <div class="box">
+                    <div class="text-box">
+                        <h1>lecture 1 : flowchart</h1>
+                        <input type="checkbox" id="myCheck" onclick="myFunction()">
+                    </div>
+                    <div class="box-content">
+                        <div class="box-left">
+                            <h2>relese date</h2>
+                            <h3>23 aug 21</h3>
+                        </div>
+
+                        <div class="box-right">
+                            <h2>deaddline</h2>
+                            <h3>30 aug 21</h3>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="count-down">
+                    <div class="box-1">
+                        <h3 id="day">
+                            00
+                        </h3>
+                        <span>day</span>
+                    </div>
+
+                    <div class="box-1">
+                        <h3 id="hour">
+                            00
+                        </h3>
+                        <span>hour</span>
+                    </div>
+
+                    <div class="box-1">
+                        <h3 id="minute">
+                            00
+                        </h3>
+                        <span>minute</span>
+                    </div>
+
+                    <div class="box-1">
+                        <h3 id="second">
+                            00
+                        </h3>
+                        <span>second</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="f-box">
+                <div class="box">
+                    <div class="text-box">
+                        <h1>lecture 1 : flowchart</h1>
+                        <input type="checkbox">
+                    </div>
+                    <div class="box-content">
+                        <div class="box-left">
+                            <h2>relese date</h2>
+                            <h3>23 aug 21</h3>
+                        </div>
+
+                        <div class="box-right">
+                            <h2>deaddline</h2>
+                            <h3>30 aug 21</h3>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="count-down">
+                    <div class="box-1">
+                        <h3 id="day">
+                            00
+                        </h3>
+                        <span>day</span>
+                    </div>
+
+                    <div class="box-1">
+                        <h3 id="hour">
+                            00
+                        </h3>
+                        <span>hour</span>
+                    </div>
+
+                    <div class="box-1">
+                        <h3 id="minute">
+                            00
+                        </h3>
+                        <span>minute</span>
+                    </div>
+
+                    <div class="box-1">
+                        <h3 id="second">
+                            00
+                        </h3>
+                        <span>second</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="f-box">
+                <div class="box">
+
+                    <div class="text-box">
+                        <h1>lecture 1 : flowchart</h1>
+                        <input type="checkbox">
+                    </div>
+
+                    <div class="box-content">
+                        <div class="box-left">
+                            <h2>relese date</h2>
+                            <h3>23 aug 21</h3>
+                        </div>
+
+                        <div class="box-right">
+                            <h2>deaddline</h2>
+                            <h3>30 aug 21</h3>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="count-down">
+                    <div class="box-1">
+                        <h3 id="day">
+                            00
+                        </h3>
+                        <span>day</span>
+                    </div>
+
+                    <div class="box-1">
+                        <h3 id="hour">
+                            00
+                        </h3>
+                        <span>hour</span>
+                    </div>
+
+                    <div class="box-1">
+                        <h3 id="minute">
+                            00
+                        </h3>
+                        <span>minute</span>
+                    </div>
+
+                    <div class="box-1">
+                        <h3 id="second">
+                            00
+                        </h3>
+                        <span>second</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="f-box">
+                <div class="box">
+
+                    <div class="text-box">
+                        <h1>lecture 1 : flowchart</h1>
+                        <input type="checkbox">
+                    </div>
+
+                    <div class="box-content">
+                        <div class="box-left">
+                            <h2>relese date</h2>
+                            <h3>23 aug 21</h3>
+                        </div>
+
+                        <div class="box-right">
+                            <h2>deaddline</h2>
+                            <h3>30 aug 21</h3>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="count-down">
+                    <div class="box-1">
+                        <h3 id="day">
+                            00
+                        </h3>
+                        <span>day</span>
+                    </div>
+
+                    <div class="box-1">
+                        <h3 id="hour">
+                            00
+                        </h3>
+                        <span>hour</span>
+                    </div>
+
+                    <div class="box-1">
+                        <h3 id="minute">
+                            00
+                        </h3>
+                        <span>minute</span>
+                    </div>
+
+                    <div class="box-1">
+                        <h3 id="second">
+                            00
+                        </h3>
+                        <span>second</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="f-box">
+                <div class="box">
+
+                    <div class="text-box">
+                        <h1>lecture 1 : flowchart</h1>
+                        <input type="checkbox">
+                    </div>
+
+                    <div class="box-content">
+                        <div class="box-left">
+                            <h2>relese date</h2>
+                            <h3>23 aug 21</h3>
+                        </div>
+
+                        <div class="box-right">
+                            <h2>deaddline</h2>
+                            <h3>30 aug 21</h3>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="count-down">
+                    <div class="box-1">
+                        <h3 id="day">
+                            00
+                        </h3>
+                        <span>day</span>
+                    </div>
+
+                    <div class="box-1">
+                        <h3 id="hour">
+                            00
+                        </h3>
+                        <span>hour</span>
+                    </div>
+
+                    <div class="box-1">
+                        <h3 id="minute">
+                            00
+                        </h3>
+                        <span>minute</span>
+                    </div>
+
+                    <div class="box-1">
+                        <h3 id="second">
+                            00
+                        </h3>
+                        <span>second</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="f-box">
+                <div class="box">
+                    <div class="text-box">
+                        <h1>lecture 1 : flowchart</h1>
+                        <input type="checkbox">
+                    </div>
+                    <div class="box-content">
+                        <div class="box-left">
+                            <h2>relese date</h2>
+                            <h3>23 aug 21</h3>
+                        </div>
+
+                        <div class="box-right">
+                            <h2>deaddline</h2>
+                            <h3>30 aug 21</h3>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="count-down">
+                    <div class="box-1">
+                        <h3 id="day">
+                            00
+                        </h3>
+                        <span>day</span>
+                    </div>
+
+                    <div class="box-1">
+                        <h3 id="hour">
+                            00
+                        </h3>
+                        <span>hour</span>
+                    </div>
+
+                    <div class="box-1">
+                        <h3 id="minute">
+                            00
+                        </h3>
+                        <span>minute</span>
+                    </div>
+
+                    <div class="box-1">
+                        <h3 id="second">
+                            00
+                        </h3>
+                        <span>second</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
